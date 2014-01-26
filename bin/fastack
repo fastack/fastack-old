@@ -1,0 +1,5 @@
+#!/usr/bin/env node
+
+var fastack = require('../lib/fastack');
+
+process.title = 'fastack';

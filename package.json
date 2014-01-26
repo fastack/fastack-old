@@ -1,0 +1,34 @@
+{
+  "name": "fastack",
+  "description": "Command line interface for deploying and interacting with Fastack",
+  "keywords": [
+    "cli",
+    "fastack",
+    "static app web host platform",
+    "platform-as-a-service",
+    "deployment"
+  ],
+  "version": "0.0.1",
+  "author": "Fastack",
+  "maintainers": [
+    "Patrick DeVivo <patrick.devivo@gmail.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fastack/fastack.git"
+  },
+  "preferGlobal": true,
+  "dependencies": {
+    "celeri": "~0.3.3",
+    "archiver": "~0.5.2"
+  },
+  "bin": {
+    "fastack": "./bin/fastack"
+  },
+  "main": "./lib/fastack",
+  "scripts": {},
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "license": "MIT"
+}
